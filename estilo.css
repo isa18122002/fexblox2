@@ -1,0 +1,67 @@
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+}
+
+.box1 {
+    background-color: #63b1bc;
+    
+}
+
+.box2 {
+    background-color: #1f2a44;
+}
+
+.box3 {
+    background-color: #ed145b;
+}
+
+.box4 {
+    background-color: #efb661;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+/* Insira o código abaixo */
+
+.container1 {
+    display: flex;
+    justify-content: flex-start; /* Alinhados à borda de início */
+}
+
+.container2 {
+    display: flex;
+    justify-content: flex-end; /* Alinhados à borda final */
+}
+
+.container3 {
+    display: flex;
+    justify-content: center; /* Centralizados na linha */
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-between; /* Itens com espaço igual entre si, 1º e último colados nas bordas */
+}
+
+.container5 {
+    display: flex;
+    justify-content: space-around; /* Espaçamento igual ao redor de cada item */
+}
+
+.container-6 {
+    display: flex;
+    justify-content: space-evenly; /* Espaçamento igual entre todos os itens */
+}
